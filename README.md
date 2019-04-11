@@ -24,10 +24,13 @@ Ahi vas a descular:
 
 #### ¿Cómo lo linkeo con Google?
 
-1 - Primero, vas a tener que declarar una app propia (esto se puede leer [acá](https://developers.google.com/identity/protocols/OAuth2)), tambien esta este [tutorial](https://github.com/gimite/google-drive-ruby/blob/master/doc/authorization.md) que esta muy bueno
-2 - luego bajar los permisos a un archivo `creds.json` para que este bicho lo pueda leer.
-3 - En el `config.py` hay que poner el ID de tu spreadsheet
-4 - Prender al bot y dar permisos de tu cuenta de Google a esa app que vos creaste. Eso se hace con el comando `/autorizar`
+1. Primero, vas a tener que declarar una app propia (esto se puede leer [acá](https://developers.google.com/identity/protocols/OAuth2)), tambien esta este [tutorial](https://github.com/gimite/google-drive-ruby/blob/master/doc/authorization.md) que esta muy bueno.
+
+2. luego bajar los permisos a un archivo `creds.json` para que este bicho lo pueda leer.
+
+3. En el `config.py` hay que poner el ID de tu spreadsheet
+
+4. Prender al bot y dar permisos de tu cuenta de Google a esa app que vos creaste. Eso se hace con el comando `/autorizar`
 
 #### Archivo de configuración
 
